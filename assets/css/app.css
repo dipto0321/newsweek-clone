@@ -1,0 +1,16 @@
+.banner,
+.banner a {
+  padding: 10px 0;
+  color: #fff;
+}
+.banner {
+  background-color: #f72210;
+  display: none;
+}
+
+/* Media queries */
+@media screen and (min-width: 992px) {
+  .banner {
+    display: block;
+  }
+}
