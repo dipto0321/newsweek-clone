@@ -1,1 +1,19 @@
 /* This stylesheet contains all styles for the first row of the page */
+.first-row {
+  margin-top: 15px;
+}
+.feature-stories-title {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.top-central-story-title {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.top-row-categories {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #03030366;
+}
