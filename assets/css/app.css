@@ -11,7 +11,6 @@ p {
   font: 0.9375rem/1.25rem Arial, Helvetica, sans-serif;
 }
 
-
 /* Banner Styles */
 .banner * {
   padding: 10px 0;
@@ -31,20 +30,44 @@ p {
 }
 
 /* Nav Styles */
+.navbar {
+  padding: 15px 0;
+}
 .navbar-light .navbar-nav .nav-link {
   color: #000;
   font-size: 21px;
   font-weight: 700;
   line-height: 24px;
+  text-align: center;
+  padding: 0 15px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #f72210
+  color: #f72210;
 }
-
+li.nav-item {
+  border-right: 1px solid #d9d9d9;
+}
+.btn-outline-success {
+  color: #000;
+  opacity: 0.5;
+  border-color: #000;
+}
+.btn-outline-success:hover {
+  background-color: #000;
+  border-color: transparent;
+  color: #fff;
+}
+.bg-light {
+  border-bottom: 1px solid #d9d9d9;
+}
+li.last.nav-item {
+  border-right: none;
+}
+a.last-nav-link.nav-link {
+}
 /* Media queries */
 @media screen and (min-width: 992px) {
-
   /* Banner Styles */
   .banner {
     display: block;
