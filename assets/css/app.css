@@ -11,15 +11,18 @@ p {
   font: 0.9375rem/1.25rem Arial, Helvetica, sans-serif;
 }
 
+
 /* Banner Styles */
 .banner * {
   padding: 10px 0;
   color: #fff;
 }
+
 .banner {
   background-color: #f72210;
   display: none;
 }
+
 .date {
   font-size: 16px;
   line-height: 34px;
@@ -29,14 +32,24 @@ p {
 
 /* Nav Styles */
 .navbar-light .navbar-nav .nav-link {
-  /* color: ; */
+  color: #000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f72210
+}
+
 /* Media queries */
 @media screen and (min-width: 992px) {
+
   /* Banner Styles */
   .banner {
     display: block;
   }
+
   /* Nav Styles */
   .navbar-brand {
     display: none;
