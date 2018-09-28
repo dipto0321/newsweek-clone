@@ -26,8 +26,11 @@ p {
   display: inline-block;
   margin: 18px 35px;
 }
-/* Nav Styles */
 
+/* Nav Styles */
+.navbar-light .navbar-nav .nav-link {
+  /* color: ; */
+}
 /* Media queries */
 @media screen and (min-width: 992px) {
   /* Banner Styles */
