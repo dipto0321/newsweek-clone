@@ -1,5 +1,18 @@
-.banner,
-.banner a {
+/*Generel Styles*/
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font: 0.9375rem/1.25rem Arial, Helvetica, sans-serif;
+}
+
+/* Banner Styles */
+.banner * {
   padding: 10px 0;
   color: #fff;
 }
@@ -7,12 +20,21 @@
   background-color: #f72210;
   display: none;
 }
+.date {
+  font-size: 16px;
+  line-height: 34px;
+  display: inline-block;
+  margin: 18px 35px;
+}
+/* Nav Styles */
 
 /* Media queries */
 @media screen and (min-width: 992px) {
+  /* Banner Styles */
   .banner {
     display: block;
   }
+  /* Nav Styles */
   .navbar-brand {
     display: none;
   }
