@@ -14,169 +14,169 @@ p {
   font: 0.9375rem/1.25rem Arial, Helvetica, sans-serif;
 }
 
-/* Banner Styles */
-.banner * {
-  padding: 10px 0;
-  color: #fff;
-}
-
-.banner {
-  background-color: #f72210;
+.banner,
+.form-inline {
   display: none;
-  height: 95px;
-}
-
-.banner>.row {
-  padding: 0;
-}
-
-.date-column,
-.subscribe-column {
-  flex-basis: 20%;
-}
-
-.date-column {
-  padding-top: 20px;
-}
-
-.subscribe-column {
-  padding-top: 40px;
-  margin-left: auto;
-}
-
-.logo-column {
-  flex-basis: 50%;
-  text-align: center;
-}
-
-.subscribe-column div {
-  position: absolute;
-  right: 30px
-}
-
-
-.w-100 {
-  max-width: 395px;
-}
-
-.date {
-  font-size: 16px;
-  line-height: 34px;
-  display: inline-block;
-  margin: 18px 35px;
-}
-
-.date-column a {
-  font-size: 1rem;
-  line-height: 34px;
-}
-
-.subscribe-column a {
-  font-size: 18px;
-  line-height: 14px;
-}
-
-
-.sign-in {
-  display: inline-block;
-}
-
-.subscribe {
-  color: #f72210;
-  background-color: #fff;
-  display: inline-block;
-  padding: 8px 12px;
-  margin-left: 10px;
-}
-
-.sign-in:hover,
-.subscribe:hover {
-  text-decoration: none;
-}
-
-.sign-in:hover {
-  color:
-    #fff;
-}
-
-.subscribe:hover {
-  color: #f72210;
-}
-
-/* Nav Styles */
-.navbar {
-  padding: 15px 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #000;
+  color: #fff;
   font-size: 21px;
   font-weight: 700;
   line-height: 24px;
-  text-align: center;
+  text-align: right;
   padding: 0 10px;
 }
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #f72210;
-}
-
-ul.navbar-nav {
-  width: 82%;
-}
-
-li.nav-item {
-  border-right: 1px solid #d9d9d9;
-  flex-grow: 1;
-}
-
-.btn-outline-success {
-  color: #000;
-  opacity: 0.5;
-  border-color: #000;
-  margin-left: -58px;
-  border: none;
-  font-size: 25px;
-}
-
-.form-inline {
-  position: absolute;
-  right: 30px;
-}
-
-.form-inline .form-control {
-  width: 100px;
-  height: 35px;
-  border: none;
-  background: none;
-}
-
-.btn-outline-success:hover {
-  background-color: #000;
-  border-color: transparent;
-  color: #fff;
-}
-
 .bg-light {
-  border-bottom: 1px solid #d9d9d9;
+  background-color: #f72210 !important;
 }
-
-/* li.last.nav-item {
-  border-right: none;
-}
-
-a.last-nav-link.nav-link {} */
 
 /* Media queries */
 @media screen and (min-width: 992px) {
-
   /* Banner Styles */
   .banner {
     display: block;
+    background-color: #f72210;
+    height: 95px;
   }
 
   /* Nav Styles */
   .navbar-brand {
     display: none;
+  }
+
+  /* Banner Styles */
+  .banner * {
+    padding: 10px 0;
+    color: #fff;
+  }
+
+  .banner > .row {
+    padding: 0;
+  }
+
+  .date-column,
+  .subscribe-column {
+    flex-basis: 20%;
+  }
+
+  .date-column {
+    padding-top: 20px;
+  }
+
+  .subscribe-column {
+    padding-top: 40px;
+    margin-left: auto;
+  }
+
+  .logo-column {
+    flex-basis: 50%;
+    text-align: center;
+  }
+
+  .subscribe-column div {
+    position: absolute;
+    right: 30px;
+  }
+
+  .w-100 {
+    max-width: 395px;
+  }
+
+  .date {
+    font-size: 16px;
+    line-height: 34px;
+    display: inline-block;
+    margin: 18px 35px;
+  }
+
+  .date-column a {
+    font-size: 1rem;
+    line-height: 34px;
+  }
+
+  .subscribe-column a {
+    font-size: 18px;
+    line-height: 14px;
+  }
+
+  .sign-in {
+    display: inline-block;
+  }
+
+  .subscribe {
+    color: #f72210;
+    background-color: #fff;
+    display: inline-block;
+    padding: 8px 12px;
+    margin-left: 10px;
+  }
+
+  .sign-in:hover,
+  .subscribe:hover {
+    text-decoration: none;
+  }
+
+  .sign-in:hover {
+    color: #fff;
+  }
+
+  .subscribe:hover {
+    color: #f72210;
+  }
+
+  /* Nav Styles */
+  .navbar {
+    padding: 15px 0;
+  }
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #000;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #f72210;
+  }
+
+  ul.navbar-nav {
+    width: 82%;
+  }
+
+  li.nav-item {
+    border-right: 1px solid #d9d9d9;
+    flex-grow: 1;
+  }
+
+  .btn-outline-success {
+    color: #000;
+    opacity: 0.5;
+    border-color: #000;
+    margin-left: -58px;
+    border: none;
+    font-size: 25px;
+  }
+
+  .form-inline {
+    position: absolute;
+    right: 30px;
+    display: block;
+  }
+
+  .form-inline .form-control {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background: none;
+  }
+
+  .btn-outline-success:hover {
+    background-color: #000;
+    border-color: transparent;
+    color: #fff;
+  }
+
+  .bg-light {
+    border-bottom: 1px solid #d9d9d9;
   }
 }
