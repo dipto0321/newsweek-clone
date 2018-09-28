@@ -12,12 +12,22 @@
   line-height: 24px;
   color: #000;
 }
+.top-story-title {
+  font-size: 22px;
+}
 
 .top-row-categories {
   font-size: 16px;
   line-height: 16px;
   color: rgba(3, 3, 3, 0.4);
   font-weight: 700;
+}
+.card {
+  border: none;
+  border-radius: 0;
+}
+.card-body {
+  padding: 1.25rem 0;
 }
 
 .card-featured-img {
@@ -36,4 +46,5 @@
 }
 .card-title a:hover {
   text-decoration: underline #f72210;
+  color: #000;
 }
