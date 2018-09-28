@@ -90,8 +90,15 @@ p {
 .sign-in:hover,
 .subscribe:hover {
   text-decoration: none;
+}
+
+.sign-in:hover {
   color:
     #fff;
+}
+
+.subscribe:hover {
+  color: #f72210;
 }
 
 /* Nav Styles */
