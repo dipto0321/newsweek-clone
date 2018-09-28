@@ -113,7 +113,7 @@ p {
 }
 
 ul.navbar-nav {
-  width: 81%;
+  width: 82%;
 }
 
 li.nav-item {
@@ -125,19 +125,21 @@ li.nav-item {
   color: #000;
   opacity: 0.5;
   border-color: #000;
-  margin-left: -18px;
+  margin-left: -58px;
   border: none;
   font-size: 25px;
 }
 
 .form-inline {
   position: absolute;
-  right: 40px;
+  right: 30px;
 }
 
 .form-inline .form-control {
   width: 100px;
   height: 35px;
+  border: none;
+  background: none;
 }
 
 .btn-outline-success:hover {
