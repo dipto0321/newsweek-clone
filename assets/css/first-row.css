@@ -7,15 +7,17 @@
   line-height: 24px;
 }
 
-.top-central-story-title {
-  font-size: 22px;
+.big-title {
+  font-size: 24px;
   line-height: 24px;
+  color: #000;
 }
 
 .top-row-categories {
-  font-size: 1rem;
-  line-height: 1rem;
-  color: #03030366;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: 700;
 }
 
 .card-featured-img {
@@ -31,4 +33,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
+}
+.card-title a:hover {
+  text-decoration: underline #f72210;
 }
