@@ -67,3 +67,12 @@ a.red-text:hover {
     bottom: 15px;
     right: 10px;
 }
+
+/* Footer styles */
+footer img {
+    max-width: 220px;
+}
+
+footer div.col-9 {
+    display: flex;
+}
