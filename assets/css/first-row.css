@@ -1,0 +1,138 @@
+/* This stylesheet contains all styles for the first row of the page */
+.first-row {
+  margin-top: 15px;
+}
+
+.feature-stories-title {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.big-title {
+  font-size: 24px;
+  line-height: 24px;
+  color: #000;
+}
+
+/* Top stories and more stories styles */
+
+.top-story-title {
+  font-size: 22px;
+}
+
+.top-story h3 {
+  width: 100%;
+  border-top: 1px solid #e6e6e7;
+  border-bottom: 1px solid #e6e6e7;
+}
+
+.top-s-t-s-t {
+  font-size: 19px;
+  line-height: 20px;
+  color: #000;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+/* More stories styles */
+.more-stories h2 {
+  width: 100%;
+}
+
+.more-story-article-title a {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #000;
+  padding: 10px 0 5px 0;
+  margin-bottom: 0;
+}
+
+.top-row-categories {
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.card-body {
+  padding: 1.25rem 0;
+}
+
+.card-featured-img {
+  position: relative;
+}
+
+.img-tag {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #f72210;
+  padding: 5px 12px;
+  background-color: #e6e6e7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.card-title a:hover,
+.more-story-article-title a:hover {
+  text-decoration: underline #f72210;
+  color: #000;
+}
+
+.side-headlines {
+  font-size: 17px;
+  line-height: 20px;
+  color: #000;
+  padding: 10px 0;
+  border-top: 1px solid #e6e6e7;
+  border-bottom: 1px solid #e6e6e7;
+  display: inline-block;
+}
+
+.side-headlines:hover,
+.top-s-t-s-t:hover,
+.opinion-author-name a:hover,
+.opinion-title a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+/* Opinions styles */
+
+.opinion-red-circle img {
+  width: 100%;
+}
+
+.opinion-title {
+  font-size: 17px;
+  line-height: 20px;
+  color: #000;
+  padding: 10px 0 5px 0;
+  margin-bottom: 0;
+}
+
+.opinion-title a {
+  color: #000;
+}
+
+.opinion-author-name,
+.opinion-author-name a {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #555;
+  border: none;
+}
+
+.opinion-author-name {}
+
+.sponsor-tag {
+  color: #3581f4;
+}
