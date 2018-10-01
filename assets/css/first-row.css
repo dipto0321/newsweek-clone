@@ -77,7 +77,8 @@
 
 .side-headlines:hover,
 .top-s-t-s-t:hover,
-.opinion-author-name a:hover {
+.opinion-author-name a:hover,
+.opinion-title a:hover {
   text-decoration: none;
   color: #f72210;
 }
