@@ -61,3 +61,9 @@ a.red-text:hover {
     display: inline-block;
     width: 100%;
 }
+
+.opinion-info {
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+}
