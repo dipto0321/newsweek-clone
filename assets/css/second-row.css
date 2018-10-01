@@ -19,4 +19,24 @@
     text-align: center;
 }
 
-/*  */
+.title-tag {
+    margin-bottom: 15px;
+
+}
+
+.red-box {
+    background: #f72210;
+    color: #fff;
+    padding: 2px 8px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.red-text {
+    color: #f72210;
+}
+
+a.red-text:hover {
+    text-decoration: none;
+    color: #f72210;
+}
