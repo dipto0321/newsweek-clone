@@ -1,0 +1,22 @@
+/* Second row styles */
+
+.n-icon {
+    -webkit-flex: none;
+    flex: none;
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    background: url("../images/logo-n.svg") center/contain no-repeat #f72210;
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.n-title {
+    font: bold 19px/19px "Roboto Condensed", sans-serif;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+/*  */
