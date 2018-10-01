@@ -1,78 +1,85 @@
 /* Second row styles */
 
 .n-icon {
-    -webkit-flex: none;
-    flex: none;
-    display: inline-block;
-    width: 29px;
-    height: 28px;
-    background: url("../images/logo-n.svg") center/contain no-repeat #f72210;
-    margin-right: 10px;
-    position: relative;
-    top: 6px;
+  -webkit-flex: none;
+  flex: none;
+  display: inline-block;
+  width: 29px;
+  height: 28px;
+  background: url("../images/logo-n.svg") center/contain no-repeat #f72210;
+  margin-right: 10px;
+  position: relative;
+  top: 6px;
 }
 
 .n-title {
-    font: bold 19px/19px "Roboto Condensed", sans-serif;
-    margin-bottom: 15px;
-    width: 100%;
-    text-align: center;
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 .n-title a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .title-tag {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .red-box {
-    background: #f72210;
-    color: #fff;
-    padding: 2px 8px;
-    display: inline-block;
-    margin-right: 10px;
+  background: #f72210;
+  color: #fff;
+  padding: 2px 8px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .red-text {
-    color: #f72210;
+  color: #f72210;
 }
 
 a.red-text:hover {
-    text-decoration: none;
-    color: #f72210;
+  text-decoration: none;
+  color: #f72210;
 }
 
 /* Featured slideshows styles */
 
 .featured-slide .img-tag {
-    display: inline-block;
-    padding: 1.2rem;
-    background: url("../images/slideshow-background.webp") no-repeat;
-    background-size: contain;
-    position: absolute;
-    bottom: -10px;
+  display: inline-block;
+  padding: 1.2rem;
+  background: url("../images/slideshow-background.webp") no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -10px;
 }
 
 .featured-slide .img-tag a {
-    font-size: 1.2rem;
-    display: inline-block;
-    width: 100%;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 100%;
 }
 
 .opinion-info {
-    position: relative;
-    bottom: 15px;
-    right: 10px;
+  position: relative;
+  bottom: 15px;
+  right: 10px;
 }
 
 /* Footer styles */
 footer img {
-    max-width: 220px;
+  max-width: 220px;
 }
 
 footer div.col-9 {
-    display: flex;
+  display: flex;
+}
+.social-link {
+  color: #000;
+  font-size: 2em;
+  opacity: 0.5;
+  margin: 0 5px;
+  display: inline-block;
 }
