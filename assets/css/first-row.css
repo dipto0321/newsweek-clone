@@ -2,6 +2,7 @@
 .first-row {
   margin-top: 15px;
 }
+
 .feature-stories-title {
   font-size: 24px;
   line-height: 24px;
@@ -12,9 +13,11 @@
   line-height: 24px;
   color: #000;
 }
+
 .top-story-title {
   font-size: 22px;
 }
+
 .top-s-t-s-t {
   font-size: 19px;
   line-height: 20px;
@@ -31,10 +34,12 @@
   color: rgba(3, 3, 3, 0.4);
   font-weight: 700;
 }
+
 .card {
   border: none;
   border-radius: 0;
 }
+
 .card-body {
   padding: 1.25rem 0;
 }
@@ -42,6 +47,7 @@
 .card-featured-img {
   position: relative;
 }
+
 .img-tag {
   font-size: 17px;
   font-weight: 700;
@@ -53,10 +59,12 @@
   bottom: 0;
   left: 0;
 }
+
 .card-title a:hover {
   text-decoration: underline #f72210;
   color: #000;
 }
+
 .side-headlines {
   font-size: 17px;
   line-height: 20px;
@@ -66,8 +74,40 @@
   border-bottom: 1px solid #e6e6e7;
   display: inline-block;
 }
+
 .side-headlines:hover,
-.top-s-t-s-t:hover {
+.top-s-t-s-t:hover,
+.opinion-author-name a:hover {
   text-decoration: none;
   color: #f72210;
 }
+
+/* Opinions styles */
+
+.opinion-red-circle img {
+  width: 100%;
+}
+
+.opinion-title {
+  font-size: 17px;
+  line-height: 20px;
+  color: #000;
+  padding: 10px 0;
+
+}
+
+.opinion-title a {
+  color: #000;
+}
+
+.opinion-author-name,
+.opinion-author-name a {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #555;
+  border: none;
+
+}
+
+.opinion-author-name {}
